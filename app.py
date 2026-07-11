@@ -14,7 +14,7 @@ API_KEY = "5c005c1076e52f6e561016655c245351"
 # Mapping friendly names to FRED Series IDs
 metrics = {
     'Arizona Unemployment Rate (%)': 'AZUR',
-    'Phoenix-Mesa Consumer Price Index (Inflation)': 'CUURS49ASF0',
+    'Phoenix-Mesa Consumer Price Index (Inflation)': 'CPIAUCSNS',
     'Arizona Total Nonfarm Payrolls (Employment)': 'AZNA'
 }
 
