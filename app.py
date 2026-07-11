@@ -25,7 +25,7 @@ series_id = metrics[selected_name]
 # 3. Data Fetching Function
 @st.cache_data(ttl=86400)
 def fetch_fred_data(series):
-    url = f"https://api.stlouisfed.org/api/fred/series/observations?series_id={series}&api_key={API_KEY}&file_type=json"
+    url = f"https://api.stlouisfed.org/fred/series/observations?series_id={series}&api_key={API_KEY}&file_type=json"
     response = requests.get(url)
     
     if response.status_code != 200:
